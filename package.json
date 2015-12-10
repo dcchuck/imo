@@ -1,0 +1,37 @@
+{
+  "name": "imo",
+  "version": "1.0.0",
+  "description": "IMO Platform",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^6.3.4",
+    "browserify-incremental": "^1.5.0",
+    "classnames": "^2.1.2",
+    "coffeeify": "~> 0.6",
+    "formsy-react": "^0.17.0",
+    "less": "^1.3.0",
+    "nack": "^0.16.0",
+    "payment": "0.0.10",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "reactify": "^1.1.1",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robcole/imo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robcole/imo/issues"
+  },
+  "homepage": "https://github.com/robcole/imo#readme"
+}

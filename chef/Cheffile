@@ -1,0 +1,11 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'npm', '~> 0.1.2'
+cookbook 'nginx', '~> 2.7.6'
+cookbook 'nodejs'
+cookbook 'ruby_build'
+cookbook 'rbenv', git: 'https://github.com/aminin/chef-rbenv'
+cookbook 'vim'
+cookbook 'postgresql',    git: "https://github.com/phlipper/chef-postgresql.git"

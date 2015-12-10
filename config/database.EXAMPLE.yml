@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: imo_development
+  username: vagrant
+  password:
+  host: localhost
+  # port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: imo_test
+  username: vagrant
+  password:
+  host: localhost
+  # port: 5432
