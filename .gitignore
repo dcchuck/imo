@@ -16,3 +16,4 @@
 /tmp
 .vagrant*
 .vagrant/*
+.DS_Store*
