@@ -44,7 +44,7 @@ Vagrant.configure('2') do |config|
 
   # Use google DNS, helps with apt DNS resolving issues
   config.landrush.enabled = true
-  config.landrush.tld = "imo"
+  config.landrush.tld = "tdev"
 
   config.vm.provision :shell, inline: "echo 'nameserver 8.8.8.8' | "\
                                       "tee /etc/resolv.conf > /dev/null"
